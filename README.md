@@ -5,6 +5,15 @@
 这是一份关于eslint规则的配置文件，主要来自[@PanjiaChen](https://github.com/PanJiaChen/vue-element-admin)的代码规范。
 
 ### 使用
+- 依赖
+
+    1. 下载npm包
+        - eslint
+        - eslint-friendly-formatter
+        - eslint-loader
+        - eslint-plugin-html
+
+    2. 复制或者下载配置文件放置到项目根目录
 - vscode
 
 在首选项中->设置->增加如下代码用来校验规则：
