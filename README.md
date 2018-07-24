@@ -7,7 +7,7 @@
 
 - 依赖
 
-    1. 下载npm包(使用vue-cli搭建的项目不需要install以下四个包，只需要将配置文件中的plugin参数改为vue))
+    1. 下载npm包(使用vue-cli 3.0 搭建的项目只需要install第四个包)
         - eslint
         - eslint-friendly-formatter
         - eslint-loader

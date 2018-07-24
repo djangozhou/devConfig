@@ -22,13 +22,13 @@ module.exports = {
     'html'
   ],
   // check if imports actually resolve
-  'settings': {
-    'import/resolver': {
-      'webpack': {
-        'config': 'build/webpack.base.conf.js'
-      }
-    }
-  },
+  // 'settings': {
+  //   'import/resolver': {
+  //     'webpack': {
+  //       'config': 'build/webpack.base.conf.js'
+  //     }
+  //   }
+  // },
   // add your custom rules here（自定义规则）
   //it is base on https://github.com/vuejs/eslint-config-vue
   'rules': {
@@ -49,8 +49,8 @@ module.exports = {
     'camelcase': [0, {
       'properties': 'always'
     }],
-    // ***要求或禁止末尾逗号
-    'comma-dangle': [2, 'always'],
+    // 要求或禁止末尾逗号
+    'comma-dangle': [2, 'never'],
     // 强制在逗号前后使用一致的空格
     'comma-spacing': [2, {
       'before': false,
