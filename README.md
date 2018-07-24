@@ -12,7 +12,6 @@
         - eslint-friendly-formatter
         - eslint-loader
         - eslint-plugin-html
-
     2. 复制或者下载配置文件放置到项目根目录
 
 - vscode
