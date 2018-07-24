@@ -17,6 +17,7 @@ module.exports = {
   extends: 'eslint:recommended',
   // required to lint *.vue files
   // 通过此插件来识别 .vue中的js代码。
+  // 使用vue-cli搭建的项目参数可以为vue
   plugins: [
     'html'
   ],
@@ -171,7 +172,7 @@ module.exports = {
       'initialized': 'never'
     }],
     // ***不要使用var
-    'no-war': 2,
+    'no-var': 2,
     'operator-linebreak': [2, 'after', {
       'overrides': {
         '?': 'before',
